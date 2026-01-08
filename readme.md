@@ -21,6 +21,6 @@ This module provides comprehensive testing and monitoring functionality for an E
   
 ## Monitoring Capabilities:
   - Real-Time monitoring on a panel box through lcd 128x64
-  - Wired monitoring via RS485 interface connected to a custom Python GUI application
+  - Wired monitoring via RS485 interface connected to a custom [RS485 Python application](https://github.com/amblackpearl/RS485-SerialApp)
   - Wireless monitoring through a WebSocket-enabled web server for real-time data streaming
   
