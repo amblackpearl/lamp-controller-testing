@@ -1,5 +1,13 @@
 
 # ESP32 Lamp Controller Testing Module
+- Good Condition (Passed)
+
+  ![Good](/assets/good.png)
+
+- Not Good Condition (Fail)
+
+  ![notGood](/assets/ng.png)
+
 
 This module provides comprehensive testing and monitoring functionality for an ESP32-based lamp controller system. It measures and validates six critical parameters to clasify if the lamp controller is good or not good.
 
