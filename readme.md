@@ -3,6 +3,41 @@
 
 This module provides comprehensive testing and monitoring functionality for an ESP32-based lamp controller system. It measures and validates six critical parameters to classify if the lamp controller is functioning properly or not.
 
+## Technologies & Framework
+
+### Firmware
+- **Platform**: Arduino IDE with ESP32 core
+- **Microcontroller**: ESP32 (Wi-Fi enabled)
+- **Programming Language**: C++ (Arduino)
+
+### Libraries & Frameworks
+- **LittleFS**: File system for storing web assets
+- **WiFi.h**: Built-in library for Wi-Fi connectivity
+- **WebSockets.h**: For real-time bidirectional communication
+- **HardwareSerial.h**: For RS485 serial communication
+- **U8g2lib.h**: For controlling the 128x64 LCD display
+
+### Communication Protocols
+- **Wi-Fi**: For wireless connectivity and web server hosting
+- **WebSocket**: For real-time data streaming to web clients
+- **RS485**: For wired serial communication
+- **HTTP**: For serving web interface
+
+### Frontend
+- **HTML5**: Semantic markup for the web-based monitoring interface
+- **CSS3**: Custom animations and styling with imported Google Fonts (Inter family)
+- **Tailwind CSS**: Utility-first CSS framework loaded via CDN for rapid UI development
+- **Vanilla JavaScript**: For client-side logic, DOM manipulation, and WebSocket communication
+- **WebSocket API**: For real-time bidirectional communication with the ESP32
+- **SVG**: For vector graphics (Logo-SEI.svg)
+- **Responsive Design**: Mobile-first approach with CSS Grid and Tailwind responsive utilities
+- **Google Fonts**: Inter font family for modern typography
+
+### Development Tools
+- **Arduino IDE**: For firmware development and uploading
+- **LittleFS Plugin**: For uploading file system data
+- **Git**: For version control
+
 ## Features
 
 - **Automated Testing**: Performs automated testing of lamp hardware components
