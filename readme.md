@@ -94,7 +94,7 @@ lamp-controller-testing/
 ## Setup Instructions
 
 1. Install the ESP32 board package in Arduino IDE
-2. Install the LittleFS plugin from [earlephilhower/arduino-littlefs-upload](https://github.com/earlephilhower/ arduino-littlefs-upload)
+2. Install the LittleFS plugin from [arduino-littlefs-upload](https://github.com/earlephilhower/arduino-littlefs-upload)
 3. Upload the LittleFS filesystem using the plugin by pressing `Ctrl+Shift+p` then choose ESP32 LittleFS Data Upload
 4. Upload the `Lamp-Controller-Tesing.ino` firmware to your ESP32 board
 5. Connect the required sensors and components as per the hardware schematic
